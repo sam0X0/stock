@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="db_stockConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="db_stockConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Stock.Properties.Settings.GlobalReference.Default.db_stockConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="db_stockConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="db_stockConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Stock.Properties.Settings.GlobalReference.Default.db_stockConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="db_stockConnectionString1 (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        tbl_invoice.customer, tbl_invoice.customer1, tbl_invoice.mob, tbl_invoice.billdate, tbl_invoice.grosstot, tbl_invoice.billpay, tbl_invoice.billtype, tbl_prodata.sr, tbl_prodata.particulars, tbl_prodata.size, 
+                         tbl_prodata.wgt, tbl_prodata.unit1, tbl_prodata.qty, tbl_prodata.nos, tbl_prodata.rate, tbl_prodata.amount, tbl_prodata.bill
+FROM            tbl_invoice INNER JOIN
+                         tbl_prodata ON tbl_invoice.billno = tbl_prodata.bill
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="customer" DataSetColumn="customer" />
+              <Mapping SourceColumn="customer1" DataSetColumn="customer1" />
+              <Mapping SourceColumn="mob" DataSetColumn="mob" />
+              <Mapping SourceColumn="billdate" DataSetColumn="billdate" />
+              <Mapping SourceColumn="grosstot" DataSetColumn="grosstot" />
+              <Mapping SourceColumn="billpay" DataSetColumn="billpay" />
+              <Mapping SourceColumn="billtype" DataSetColumn="billtype" />
+              <Mapping SourceColumn="sr" DataSetColumn="sr" />
+              <Mapping SourceColumn="particulars" DataSetColumn="particulars" />
+              <Mapping SourceColumn="size" DataSetColumn="size" />
+              <Mapping SourceColumn="wgt" DataSetColumn="wgt" />
+              <Mapping SourceColumn="unit1" DataSetColumn="unit1" />
+              <Mapping SourceColumn="qty" DataSetColumn="qty" />
+              <Mapping SourceColumn="nos" DataSetColumn="nos" />
+              <Mapping SourceColumn="rate" DataSetColumn="rate" />
+              <Mapping SourceColumn="amount" DataSetColumn="amount" />
+              <Mapping SourceColumn="bill" DataSetColumn="bill" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="db_stockConnectionString1 (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="FillBy" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        tbl_invoice.customer, tbl_invoice.customer1, tbl_invoice.mob, tbl_invoice.billdate, tbl_invoice.grosstot, tbl_invoice.billpay, tbl_invoice.billtype, tbl_prodata.sr, tbl_prodata.particulars, tbl_prodata.size, 
+                         tbl_prodata.wgt, tbl_prodata.unit1, tbl_prodata.qty, tbl_prodata.nos, tbl_prodata.rate, tbl_prodata.amount, tbl_prodata.bill
+FROM            tbl_invoice INNER JOIN
+                         tbl_prodata ON tbl_invoice.billno = tbl_prodata.bill
+where bill=@bill</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="bill" ColumnName="bill" DataSourceName="db_stock.dbo.tbl_prodata" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@bill" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="bill" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customer" msprop:Generator_ColumnVarNameInTable="columncustomer" msprop:Generator_ColumnPropNameInRow="customer" msprop:Generator_ColumnPropNameInTable="customerColumn" msprop:Generator_UserColumnName="customer" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="254" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="customer1" msprop:Generator_ColumnVarNameInTable="columncustomer1" msprop:Generator_ColumnPropNameInRow="customer1" msprop:Generator_ColumnPropNameInTable="customer1Column" msprop:Generator_UserColumnName="customer1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="254" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="mob" msprop:Generator_ColumnVarNameInTable="columnmob" msprop:Generator_ColumnPropNameInRow="mob" msprop:Generator_ColumnPropNameInTable="mobColumn" msprop:Generator_UserColumnName="mob" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="billdate" msprop:Generator_ColumnVarNameInTable="columnbilldate" msprop:Generator_ColumnPropNameInRow="billdate" msprop:Generator_ColumnPropNameInTable="billdateColumn" msprop:Generator_UserColumnName="billdate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="grosstot" msprop:Generator_ColumnVarNameInTable="columngrosstot" msprop:Generator_ColumnPropNameInRow="grosstot" msprop:Generator_ColumnPropNameInTable="grosstotColumn" msprop:Generator_UserColumnName="grosstot" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="billpay" msprop:Generator_ColumnVarNameInTable="columnbillpay" msprop:Generator_ColumnPropNameInRow="billpay" msprop:Generator_ColumnPropNameInTable="billpayColumn" msprop:Generator_UserColumnName="billpay" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="billtype" msprop:Generator_ColumnVarNameInTable="columnbilltype" msprop:Generator_ColumnPropNameInRow="billtype" msprop:Generator_ColumnPropNameInTable="billtypeColumn" msprop:Generator_UserColumnName="billtype" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sr" msprop:Generator_ColumnVarNameInTable="columnsr" msprop:Generator_ColumnPropNameInRow="sr" msprop:Generator_ColumnPropNameInTable="srColumn" msprop:Generator_UserColumnName="sr" type="xs:int" minOccurs="0" />
+              <xs:element name="particulars" msprop:Generator_ColumnVarNameInTable="columnparticulars" msprop:Generator_ColumnPropNameInRow="particulars" msprop:Generator_ColumnPropNameInTable="particularsColumn" msprop:Generator_UserColumnName="particulars" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="254" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="size" msprop:Generator_ColumnVarNameInTable="columnsize" msprop:Generator_ColumnPropNameInRow="size" msprop:Generator_ColumnPropNameInTable="sizeColumn" msprop:Generator_UserColumnName="size" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="wgt" msprop:Generator_ColumnVarNameInTable="columnwgt" msprop:Generator_ColumnPropNameInRow="wgt" msprop:Generator_ColumnPropNameInTable="wgtColumn" msprop:Generator_UserColumnName="wgt" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="unit1" msprop:Generator_ColumnVarNameInTable="columnunit1" msprop:Generator_ColumnPropNameInRow="unit1" msprop:Generator_ColumnPropNameInTable="unit1Column" msprop:Generator_UserColumnName="unit1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="qty" msprop:Generator_ColumnVarNameInTable="columnqty" msprop:Generator_ColumnPropNameInRow="qty" msprop:Generator_ColumnPropNameInTable="qtyColumn" msprop:Generator_UserColumnName="qty" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nos" msprop:Generator_ColumnVarNameInTable="columnnos" msprop:Generator_ColumnPropNameInRow="nos" msprop:Generator_ColumnPropNameInTable="nosColumn" msprop:Generator_UserColumnName="nos" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="rate" msprop:Generator_ColumnVarNameInTable="columnrate" msprop:Generator_ColumnPropNameInRow="rate" msprop:Generator_ColumnPropNameInTable="rateColumn" msprop:Generator_UserColumnName="rate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="amount" msprop:Generator_ColumnVarNameInTable="columnamount" msprop:Generator_ColumnPropNameInRow="amount" msprop:Generator_ColumnPropNameInTable="amountColumn" msprop:Generator_UserColumnName="amount" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="bill" msprop:Generator_ColumnVarNameInTable="columnbill" msprop:Generator_ColumnPropNameInRow="bill" msprop:Generator_ColumnPropNameInTable="billColumn" msprop:Generator_UserColumnName="bill" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

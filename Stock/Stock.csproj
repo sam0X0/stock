@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9ED1FD8A-9716-49BE-9FE4-1B530A291BA4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Stock</RootNamespace>
+    <AssemblyName>Stock</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\Sale(POS)\Sale(POS)\bin\Debug\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bill.cs">
+      <DependentUpon>bill.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bill.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bill.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="cust.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cust.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmbackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbackup.Designer.cs">
+      <DependentUpon>frmbackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmflash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmflash.Designer.cs">
+      <DependentUpon>frmflash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.cs">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmviewbill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmviewbill.Designer.cs">
+      <DependentUpon>frmviewbill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="invoice.cs">
+      <DependentUpon>invoice.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="invoice.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>invoice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmcustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcustomer.Designer.cs">
+      <DependentUpon>frmcustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmdashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdashboard.Designer.cs">
+      <DependentUpon>frmdashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frminvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frminvoice.Designer.cs">
+      <DependentUpon>frminvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmsale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsale.Designer.cs">
+      <DependentUpon>frmsale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmstock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmstock.Designer.cs">
+      <DependentUpon>frmstock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="cust.rdlc" />
+    <EmbeddedResource Include="frmbackup.resx">
+      <DependentUpon>frmbackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcustomer.resx">
+      <DependentUpon>frmcustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdashboard.resx">
+      <DependentUpon>frmdashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmflash.resx">
+      <DependentUpon>frmflash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frminvoice.resx">
+      <DependentUpon>frminvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsale.resx">
+      <DependentUpon>frmsale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmstock.resx">
+      <DependentUpon>frmstock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmviewbill.resx">
+      <DependentUpon>frmviewbill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="invoice.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="bill.xsc">
+      <DependentUpon>bill.xsd</DependentUpon>
+    </None>
+    <None Include="bill.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bill.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="bill.xss">
+      <DependentUpon>bill.xsd</DependentUpon>
+    </None>
+    <None Include="cust.xsc">
+      <DependentUpon>cust.xsd</DependentUpon>
+    </None>
+    <None Include="cust.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>cust.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="cust.xss">
+      <DependentUpon>cust.xsd</DependentUpon>
+    </None>
+    <None Include="invoice.xsc">
+      <DependentUpon>invoice.xsd</DependentUpon>
+    </None>
+    <None Include="invoice.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>invoice.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="invoice.xss">
+      <DependentUpon>invoice.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\web close.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rmv1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\umiya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\db1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

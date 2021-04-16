@@ -1,0 +1,82 @@
+c:\users\user\documents\visual studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.Properties.Resources.resources
+c:\users\user\documents\visual studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2010\Projects\Stock\Stock\bin\Debug\Stock.exe
+c:\users\user\documents\visual studio 2010\Projects\Stock\Stock\bin\Debug\Stock.pdb
+c:\users\user\documents\visual studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.exe
+c:\users\user\documents\visual studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.pdb
+c:\users\user\documents\visual studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frmdashboard.resources
+c:\users\user\documents\visual studio 2010\Projects\Stock\Stock\bin\Debug\Bunifu_UI_v1.5.3.dll
+c:\users\user\documents\visual studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frmcustomer.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frmstock.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frmsale.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\obj\x86\Debug\Stock.exe
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\obj\x86\Debug\Stock.pdb
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\bin\Debug\Stock.exe.config
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\bin\Debug\Stock.exe
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\bin\Debug\Stock.pdb
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\obj\x86\Debug\Stock.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\obj\x86\Debug\Stock.frmcustomer.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\obj\x86\Debug\Stock.frmdashboard.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\obj\x86\Debug\Stock.frminvoice.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\obj\x86\Debug\Stock.frmsale.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\obj\x86\Debug\Stock.frmstock.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\obj\x86\Debug\Stock.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\obj\x86\Debug\Stock.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\obj\x86\Debug\RdlCompile.cache
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\obj\x86\Debug\RdlCompile.compiled
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock\Stock\bin\Debug\Stock.exe.config
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frminvoice.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\RdlCompile.cache
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\RdlCompile.compiled
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock\Stock\bin\Debug\invoice.rdlc
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frmviewbill.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\bin\Debug\invoice.rdlc
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock - Copy\Stock\obj\x86\Debug\Stock.frmviewbill.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frmbackup.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frmflash.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frmlogin.resources
+F:\c#\c#proj\db\upya\Stock\Stock\bin\Debug\Stock.exe.config
+F:\c#\c#proj\db\upya\Stock\Stock\obj\x86\Debug\Stock.exe
+F:\c#\c#proj\db\upya\Stock\Stock\obj\x86\Debug\Stock.pdb
+F:\c#\c#proj\db\upya\Stock\Stock\bin\Debug\invoice.rdlc
+F:\c#\c#proj\db\upya\Stock\Stock\bin\Debug\Stock.exe
+F:\c#\c#proj\db\upya\Stock\Stock\bin\Debug\Stock.pdb
+F:\c#\c#proj\db\upya\Stock\Stock\obj\x86\Debug\Stock.csprojResolveAssemblyReference.cache
+F:\c#\c#proj\db\upya\Stock\Stock\obj\x86\Debug\Stock.frmbackup.resources
+F:\c#\c#proj\db\upya\Stock\Stock\obj\x86\Debug\Stock.frmcustomer.resources
+F:\c#\c#proj\db\upya\Stock\Stock\obj\x86\Debug\Stock.frmdashboard.resources
+F:\c#\c#proj\db\upya\Stock\Stock\obj\x86\Debug\Stock.frmflash.resources
+F:\c#\c#proj\db\upya\Stock\Stock\obj\x86\Debug\Stock.frminvoice.resources
+F:\c#\c#proj\db\upya\Stock\Stock\obj\x86\Debug\Stock.frmlogin.resources
+F:\c#\c#proj\db\upya\Stock\Stock\obj\x86\Debug\Stock.frmsale.resources
+F:\c#\c#proj\db\upya\Stock\Stock\obj\x86\Debug\Stock.frmstock.resources
+F:\c#\c#proj\db\upya\Stock\Stock\obj\x86\Debug\Stock.frmviewbill.resources
+F:\c#\c#proj\db\upya\Stock\Stock\obj\x86\Debug\Stock.Properties.Resources.resources
+F:\c#\c#proj\db\upya\Stock\Stock\obj\x86\Debug\Stock.csproj.GenerateResource.Cache
+F:\c#\c#proj\db\upya\Stock\Stock\obj\x86\Debug\RdlCompile.cache
+F:\c#\c#proj\db\upya\Stock\Stock\obj\x86\Debug\RdlCompile.compiled
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\bin\Debug\Stock.exe.config
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.exe
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.pdb
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\bin\Debug\invoice.rdlc
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\bin\Debug\Stock.exe
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\bin\Debug\Stock.pdb
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.csprojResolveAssemblyReference.cache
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frmbackup.resources
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frmcustomer.resources
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frmdashboard.resources
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frmflash.resources
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frminvoice.resources
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frmlogin.resources
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frmsale.resources
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frmstock.resources
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.frmviewbill.resources
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.Properties.Resources.resources
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\Stock.csproj.GenerateResource.Cache
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\RdlCompile.cache
+C:\Users\root\Documents\Visual Studio 2010\Projects\Stock\Stock\obj\x86\Debug\RdlCompile.compiled
+C:\Users\root\Documents\Visual Studio 2010\Projects\projectstock\Stock\Stock\bin\Debug\Stock.exe.config
+C:\Users\root\Documents\Visual Studio 2010\Projects\projectstock\Stock\Stock\obj\x86\Debug\Stock.exe
+C:\Users\root\Documents\Visual Studio 2010\Projects\projectstock\Stock\Stock\obj\x86\Debug\Stock.pdb
